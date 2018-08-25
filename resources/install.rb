@@ -17,7 +17,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-property :name, String, name_property: true, default: 'default'
+# property :name, String, name_property: true, default: 'default'
+property :name, String, default: 'default'
 property :url, String, default: nil
 property :marker, String, default: 'stable'
 property :version, String, default: '11.11'
